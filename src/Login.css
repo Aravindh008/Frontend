@@ -1,0 +1,61 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: url(c:\Users\Lenovo\Downloads\thumbbig-1330496.webp);
+    background-position: center;
+    background-size: cover;
+    position:sticky
+   
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #d61f9f;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+  
+  .input-field {
+    padding: 0.75rem 1rem;
+    border: 1px solid #c92bbc;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #f117a9;
+    outline: none;
+  }
+  
+  .submit-button {
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    background-color: #ee1aae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ac0048;
+  }
+  
